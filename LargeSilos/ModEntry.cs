@@ -5,10 +5,6 @@ namespace LargeSilos
 {
     public class ModEntry : Mod
     {
-        public override void Entry(IModHelper helper)
-        {
-            HarmonyInstance harmony = HarmonyInstance.Create("us.dragonma.patch");
-            harmony.PatchAll();
-        }
+        public override void Entry(IModHelper helper) => HarmonyInstance.Create("us.dragonma.patch").PatchAll();
     }
 }
