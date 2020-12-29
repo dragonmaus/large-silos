@@ -1,0 +1,12 @@
+{
+  "Name": "Large Silos",
+  "Author": "DragonMaus",
+  "Version": "1.0.0",
+  "Description": "Make silos useful",
+  "UniqueID": "DragonMaus.LargeSilos",
+  "EntryDll": "LargeSilos.dll",
+  "MinimumApiVersion": "3.8.0",
+  "UpdateKeys": [
+    "GitHub:dragonmaus/large-silos"
+  ]
+}
